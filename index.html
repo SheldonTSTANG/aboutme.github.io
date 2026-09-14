@@ -143,8 +143,8 @@
 <body>
     <main class="card">
         <header>
-            <h1>View my Resume and CV </h1>
-            <p>Open my Resume and CV in your browser to view and download</p>
+            <h1>View my Resume </h1>
+            <p>Open my Resume in your browser to view and download</p>
         </header>
 
         <div class="actions" role="group" aria-label="Resume actions">
@@ -158,34 +158,12 @@
                 </svg>
                 View Resume
             </a>
-            <a class="btn secondary" href="STang CV Temp.pdf" target="_blank" rel="noopener"
-                aria-label="Open CV in a new tab">
-
-                <!-- document icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
-                    <path fill="currentColor"
-                        d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm4 18H6V4h7v5h5v11zM8 15.01l1.41 1.41L11 14.84V19h2v-4.16l1.59 1.59L16 15.01 12.01 11 8 15.01z" />
-                </svg>
-                View CV
-            </a>
         </div>
 
         <footer>
 
         </footer>
     </main>
-    <script>
-        //Set the "Updated" time to today's date so the page feels fresh even when hosted statically.
-        (function () {
-            try {
-                const t = document.getElementById('today');
-                if (!t) return;
-                const d = new Date();
-                const fmt = new Intl.DateTimeFormat(navigator.language || 'en-US', { month: 'short', day: '2-digit', year: 'numeric' });
-                t.textContent = fmt.format(d);
-            } catch { }
-        }());
-    </script>
 </body>
 
 </html>
